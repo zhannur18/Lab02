@@ -1,6 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        MyLinkedList<Integer> list = new MyLinkedList<>();
+        MyLinkedList<Integer> list = new MyLinkedList<>() {
+            @Override
+            public void addAll(Integer item) {
+
+            }
+        };
 
         // Test add(E element)
         list.add(1);
