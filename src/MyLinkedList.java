@@ -1,5 +1,5 @@
-public abstract class MyLinkedList<E extends Comparable<E>> implements MyList<E> {
 
+public abstract class MyLinkedList<E extends Comparable<E>> implements MyList<E> {
     private class Node {
         E element;
         Node next;
