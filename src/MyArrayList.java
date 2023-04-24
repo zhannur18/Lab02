@@ -116,12 +116,12 @@ public class MyArrayList  <T extends Comparable<T>> implements MyList{
         }
     }
     public void addAll(Object item) {
-        for (int i=0; i< size ; i++){
-            if(arr.length == size){
+        for (int i=0; i< size ; i++) {
+            if (arr.length == size) {
                 increasebuffer();
             }
 
             size++;
 
-    }
+        }
 }}

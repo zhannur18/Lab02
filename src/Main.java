@@ -3,7 +3,6 @@ public class Main {
         MyLinkedList<Integer> list = new MyLinkedList<>() {
             @Override
             public void addAll(Integer item) {
-
             }
         };
 
